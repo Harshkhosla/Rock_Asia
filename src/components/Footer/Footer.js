@@ -48,7 +48,7 @@ function Footer() {
                                 <a to="/product/sand" >• Sand</a>
                             </li>
                             <li>
-                                <a to="/product/sand" >• Bricks</a>
+                                <a to="/product/sand" >• Brickss</a>
                             </li>
                             </ul>
                         </div>
