@@ -1,0 +1,44 @@
+.header {
+
+    background-image: url('https://live.staticflickr.com/3407/3327780347_6f9c9ea35b_b.jpg');
+    opacity: 80%;
+}
+
+.sample {
+    color: black;
+    height: 226px;
+
+}
+
+.box {
+    width: 100%;
+    height: px;
+    background-image: url('Marble.jpg');
+    background-size: 100% 100%;
+    margin-left: 21px;
+    margin-top: 21px;
+    display: flex;
+}
+
+
+
+
+.info {
+
+    margin-left: 21px;
+    font-size: medium;
+}
+
+.info1 {
+    /* font-family: 'Anuphan', sans-serif; */
+    font-size: large;
+    margin-left: 45px;
+    margin-right: 183px;
+    /* text-align: center; */
+
+}
+
+.body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
