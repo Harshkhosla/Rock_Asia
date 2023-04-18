@@ -47,6 +47,9 @@ function Footer() {
                             <li>
                                 <a to="/product/sand" >• Sand</a>
                             </li>
+                            <li>
+                                <a to="/product/sand" >• Bricks</a>
+                            </li>
                             </ul>
                         </div>
                         <div className="footer-col">
