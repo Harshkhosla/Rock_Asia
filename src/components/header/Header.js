@@ -61,7 +61,7 @@ const Header = () => {
               color:'#e88c44'
             }}
           >
-            AAYUSH 10 Baap Ka
+            AAYUSH 10 p"aap Ka
           </Typography>
 
           <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
