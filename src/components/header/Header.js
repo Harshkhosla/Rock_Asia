@@ -61,7 +61,7 @@ const Header = () => {
               color:'#e88c44'
             }}
           >
-            ROCK ASIA 
+            AAYUSH 10 Baap Ka
           </Typography>
 
           <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
