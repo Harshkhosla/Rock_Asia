@@ -29,6 +29,7 @@ function Footer() {
                                 <li style={{color:"#bbbbbb"}}>• Lucknow </li>
                                 <li style={{color:"#bbbbbb"}}>• Makrana </li>
                                 <li style={{color:"#bbbbbb"}}>• Jaipur  </li>
+                                <li style={{color:"#bbbbbb"}}>• Bandikui  </li>
                             </ul>
                         </div>
                         <div className="footer-col">

@@ -61,7 +61,7 @@ const Header = () => {
               color:'#e88c44'
             }}
           >
-            LOGO
+            ROCK ASIA 
           </Typography>
 
           <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
