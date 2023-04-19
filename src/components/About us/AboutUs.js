@@ -1,7 +1,10 @@
 import React from "react";
 import "./About.css";
 import logo from './logo.jpg';
-import Card from '../card/card'
+import Card1 from '../card/card1'
+import Card2 from '../card/card2'
+import Card3 from '../card/card3'
+
 const AboutUs = () => {
   return (
     <>
@@ -80,10 +83,12 @@ const AboutUs = () => {
 
    <div className="cards d-flex justify-content-evenly mt-4">
 
-    <Card/>
-    <Card/>
-    <Card/>
+    <Card1/>
+    <Card2/>
+    <Card3/>
    </div>
+   <div><hr /></div>
+   <div className="fs-3" style={{color:"#e88c04"}}><strong>Our Branches</strong></div>
    <div className="phoots d-flex justify-content-evenly">
    <div class="card mt-4" style={{width: "18rem"}}>
   <img src="https://img.freepik.com/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-interior-hightech-factory-modern-production_645730-185.jpg?w=1060&t=st=1681854058~exp=1681854658~hmac=b1ad62682438e048c1e3411be9e9dff0bec06fdaa777022ac2815f2559d8c078" class="card-img-top" alt="..."/>

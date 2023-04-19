@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography'
 const bull = (
     <Box
       component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+      sx={{ display: 'inline-block', mx: '5px', transform: 'scale(0.8)' }}
     >
       •
     </Box>
@@ -17,14 +17,14 @@ const bull = (
   
   const card = (
     <React.Fragment>
-      <CardContent>
+      <CardContent  style={{margin:'20px'}}>
         
-        <Typography variant="h5" component="div">
-        Our Mission
+        <Typography variant="h5" component="div" className="fs-4">
+        Our Values
         </Typography>
         
-        <Typography variant="body2">
-        We aim to add value to people’s lives everyday by adding peaceful elements to any architectural projects.
+        <Typography variant="body2 fs-6">
+        Empowerment / Professional / Innovation / Quality / Trust / Growth.
           <br />
      
         </Typography>
