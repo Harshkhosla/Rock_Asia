@@ -16,6 +16,7 @@ import Logo from './logo.jpg'
 import { Link } from 'react-router-dom';
 
 
+
 const pages = [ 'Home', 'Products','About'];
 const settings = ['Profile', 'Account', 'Contact Us', 'Logout'];
 
@@ -48,13 +49,13 @@ const Header = () => {
 
   return (
     <div>
-     <AppBar position="static" sx={{color:'#e88c44',backgroundColor:"#ffffff"}}>
-      <Container maxWidth="xl">
+     <AppBar position="static mb-5" sx={{color:'#e88c44',backgroundColor:"#ffffff", }}>
+      <Container maxWidth="xl" >
         <Toolbar disableGutters>
-          <img src ={Logo} style={{height:'55px'}}/>
+          <img src ={Logo} style={{height:'55px', }}/>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
             component="a"
             href="/"
@@ -63,7 +64,7 @@ const Header = () => {
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              letterSpacing: '.2rem',
               color: 'inherit',
               textDecoration: 'none',
               color:'#e88c44'
