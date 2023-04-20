@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 import logo from './logo.jpg';
+// import logo from './logo.jpg';
+
+// import Card from '../card/card'
 
 const AboutUs = () => {
   return (
@@ -8,6 +11,7 @@ const AboutUs = () => {
       <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          
         />
         <link
           rel="preconnect"
