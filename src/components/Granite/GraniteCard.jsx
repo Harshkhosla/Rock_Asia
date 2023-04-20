@@ -1,7 +1,8 @@
 import React from 'react'
-import Marble from './Marble';
 
-function MarbleCard({name,img}) {
+
+
+function GraniteCard({name,img}) {
     console.log(name);
   return (<>
     
@@ -11,7 +12,7 @@ function MarbleCard({name,img}) {
           <div class="card">
             <img src={img} class="card-img-top" alt="" />
             <div class="card-body text-center">
-              <h5 class="card-title ">{name}</h5>
+              <h5 class="card-title text-uppercase "style={{fontSize:"17px"}} >{name}</h5>
               </div>
           {/* </div> */}
         </div>
@@ -22,4 +23,4 @@ function MarbleCard({name,img}) {
   )
 }
 
-export default MarbleCard
+export default GraniteCard

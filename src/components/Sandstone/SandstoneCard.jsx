@@ -1,7 +1,7 @@
 import React from 'react'
-import Marble from './Marble';
 
-function MarbleCard({name,img}) {
+
+function SandstoneCard({name,img}) {
     console.log(name);
   return (<>
     
@@ -22,4 +22,4 @@ function MarbleCard({name,img}) {
   )
 }
 
-export default MarbleCard
+export default SandstoneCard
