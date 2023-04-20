@@ -54,14 +54,14 @@ const Header = () => {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-              fontWeight: 700,
+              fontWeight: 1000,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
               color:'#e88c44'
             }}
           >
-            AAYUSH 10 p"aap Ka
+            Rock Asia 
           </Typography>
 
           <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

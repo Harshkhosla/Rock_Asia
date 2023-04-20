@@ -4,6 +4,7 @@ import sample2 from './slider2.jpg'
 import sample3 from './slider3.jpg'
 import sample4 from './slider4.jpg'
 import Logo from './logo.jpg'
+import ware from './warehouse1.jpg'
 import marbel from './Marble1.jpg'
 const Products = () => {
   return (
@@ -39,20 +40,21 @@ const Products = () => {
   </button>
 </div>
 
-<div className="container d-flex">
-<div class="p-2 w-100">Our business is dedicated to providing high-quality and affordable natural stones to customers worldwide. Our products include Red Coarse Sand, Marble, Granite, and other imported stones, all sourced from the finest quarries around the world. As mine owners, manufacturers, processors, traders, and suppliers, we take pride in every aspect of our business operations, ensuring that our customers receive the best possible service and products.
 
-At the core of our business is our mission to add value to people's lives through the integration of peaceful elements into architectural projects. We understand that our natural stones play a vital role in the creation of beautiful and functional living spaces. From traditional to modern styles, we have a wide range of products to meet the needs of our clients.
-</div>
-  <div class="p-2 flex-shrink-1"> <img src={Logo} class="d-block w-100" alt="..."/></div>
-</div>
+
 <div className="container d-flex">
 <div class="p-2 flex-shrink-1"> <img src={Logo} class="d-block w-100" alt="..."/></div>
+<div class="p-2 w-100"> Our vision is to provide best-in-class, affordable, and customized flooring and interior solutions with a fusion of Marble and Granite. We believe in nature-friendly living and strive to provide products that promote sustainability and environmental responsibility.
+
+We are a values-driven organization, and our values are centered around empowerment, professionalism, innovation, quality, trust, and growth. Our team is committed to providing exceptional customer service, and we are always willing to go the extra mile to ensure that our customers are satisfied with our products and services.</div>
+ 
+</div>
+<div className="container d-flex">
 <div class="p-2 w-100">Our business is dedicated to providing high-quality and affordable natural stones to customers worldwide. Our products include Red Coarse Sand, Marble, Granite, and other imported stones, all sourced from the finest quarries around the world. As mine owners, manufacturers, processors, traders, and suppliers, we take pride in every aspect of our business operations, ensuring that our customers receive the best possible service and products.
 
 At the core of our business is our mission to add value to people's lives through the integration of peaceful elements into architectural projects. We understand that our natural stones play a vital role in the creation of beautiful and functional living spaces. From traditional to modern styles, we have a wide range of products to meet the needs of our clients.
 </div>
- 
+  <div class="p-2 flex-shrink-1"> <img src={ware} class="d-block w-100" alt="..."/></div>
 </div>
 
 
