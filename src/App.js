@@ -7,7 +7,6 @@ import AboutUs from './components/About us/AboutUs';
 import { Route, Routes } from 'react-router-dom';
 import Contact from './components/Contact/Contact';
 import Marble from './components/Marble/Marble';
-import Granite from './components/Granite/Granite'
 
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
     <Route path ="/Home" element={<Home/>}/>
     <Route path ="/About" element={<AboutUs/>}/>
     <Route path ="/Contact Us" element={<Contact/>}/>
-    <Route path ="/Products" element={<Granite/>}/>
+    <Route path ="/Products" element={<Marble/>}/>
      
      </Routes>
      {/* <Home/> */}

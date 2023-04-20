@@ -63,16 +63,14 @@ const Header = () => {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-
-              fontWeight: 1000,
-              letterSpacing: '.3rem',
-
+              fontWeight: 700,
+              letterSpacing: '.2rem',
               color: 'inherit',
               textDecoration: 'none',
               color:'#e88c44'
             }}
           >
-            Rock Asia 
+            ROCK ASIA 
           </Typography>
 
           <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
