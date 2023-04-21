@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const pages = [ 'Home', 'Products','About'];
+const pages = [ 'Home', 'Products','About',];
 const settings = ['Profile', 'Account', 'Contact Us', 'Logout'];
 
 const Header = () => {
@@ -75,7 +75,7 @@ const Header = () => {
             Rock Asia 
           </Typography>
 
-          <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' },  }}>
             <IconButton
               size="large"
               aria-label="account of current user"

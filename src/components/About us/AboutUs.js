@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
 import logo from './logo.jpg';
-// import logo from './logo.jpg';
-
-// import Card from '../card/card'
+import Card1 from '../card/card1'
+import Card2 from '../card/card2'
+import Card3 from '../card/card3'
 
 const AboutUs = () => {
   return (
@@ -27,11 +27,11 @@ const AboutUs = () => {
         <div className="box " style={{margin:'0px'}} >
          
           <div className="box1"style={{width:'50%'}}>
-            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4" >Founder's Message</h2>
+            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4" style={{color:"#e88c04"}}>Founder's Message</h2>
             {/* <hr /> */}
             <div className="info1 mx-5 my-2 fs-5">
               <p>MR.ANIRUDH BANSAL</p>
-              <div className="info2 mx-7 lh-base" style={{color:"#e88c04"}} >
+              <div className="info2 mx-7 lh-base"  >
                 He Completed his Schooling from Mayo College, Ajmer. He did his
                 Graduation from Jain College, Bangalore & MBA from Narsee Munji
                 College, Mumbai. He is Full of vibrant energy. He is been
@@ -44,11 +44,11 @@ const AboutUs = () => {
           </div>
 <div class="vl" style={{border: '1px solid black',width:'1px', height: '430px'}}></div>
           <div style={{width:'50%'}}>
-            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4">Founder's Message</h2>
+            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4" style={{color:"#e88c04"}}>Founder's Message</h2>
             {/* <hr /> */}
             <div className="info1 mx-5 my-2 fs-5">
               <p> MRS.MANISHA GUPTA BANSAL</p>
-              <div className="info2 mx-7 fs-5 lh-base" style={{color:"#e88c04"}}>
+              <div className="info2 mx-7 fs-5 lh-base" >
                 She completed her Schooling from Central Academy, Lucknow. She
                 is a B. Tech in Computer Science from Babu Banarasi Das
                 Engineering College, Lucknow. She did her masters in Supply
@@ -84,10 +84,12 @@ const AboutUs = () => {
 
    <div className="cards d-flex justify-content-evenly mt-4">
 
-    {/* <Card/>
-    <Card/>
-    <Card/> */}
+    <Card1/>
+    <Card2/>
+    <Card3/>
    </div>
+   <div><hr /></div>
+   <div className="fs-3" style={{color:"#e88c04"}}><strong>Our Branches</strong></div>
    <div className="phoots d-flex justify-content-evenly">
    <div class="card mt-4" style={{width: "18rem"}}>
   <img src="https://img.freepik.com/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-interior-hightech-factory-modern-production_645730-185.jpg?w=1060&t=st=1681854058~exp=1681854658~hmac=b1ad62682438e048c1e3411be9e9dff0bec06fdaa777022ac2815f2559d8c078" class="card-img-top" alt="..."/>
