@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography'
 const bull = (
     <Box
       component="span"
-      sx={{ display: 'inline-block', mx: '5px', transform: 'scale(0.8)' }}
+      sx={{ display: 'inline-block', mx: '5px', transform: 'scale(0.8)',fontFamily: "Roboto" }}
     >
       •
     </Box>

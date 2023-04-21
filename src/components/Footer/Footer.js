@@ -65,7 +65,7 @@ function Footer() {
               
               </ul>
             </div>
-            <div className="footer-col">
+            <div className="footer-col text-start">
               <h4>let's talk and connect</h4>
               <ul>
                 <li>

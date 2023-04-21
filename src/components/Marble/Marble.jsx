@@ -85,7 +85,7 @@ function Marble() {
         backgroundImage: `url(${back})`
       }}>
         <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: '#833838', fontSize: "500%", fontFamily: "Roboto", letterSpacing: "10px", height: '200px' }}>
-          Marble
+          MARBLE
         </h1>
       </div>
       <div className=" mx-0" style={{

@@ -40,7 +40,7 @@ let sandstone=[
                 backgroundImage: `url(${back})`
             }}>
                 <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'black', fontSize: "500%", fontFamily: "Roboto", letterSpacing: "10px", height: '200px' }}>
-                    Sandstone
+                    SANDSTONE
                 </h1>
             </div>
       

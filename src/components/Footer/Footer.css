@@ -79,7 +79,7 @@ ul{
 	background-color: #ffffff;
 }
 
-/responsive/
+/* responsive */
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -90,4 +90,15 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+
+.prod h::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: -10px;
+    background-color: #e88c04;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }

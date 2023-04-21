@@ -14,17 +14,18 @@ const AboutUs = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
           
         />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></link>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossorigin
           ></link>  
         <div className="header mx-0">
-          <h1 className="sample d-flex align-items-center justify-content-center" style={{color:'black', height:'256px'}}>
+          <h1 className="sample d-flex align-items-center justify-content-center" style={{color:'black', height:'256px', fontFamily: "Roboto",}}>
             About Us
           </h1>
         </div>
-        <div className="box " style={{margin:'0px'}} >
+        <div className="box " style={{margin:'0px',fontFamily: "Roboto"}} >
          
           <div className="box1"style={{width:'50%'}}>
             <h2 className=" info text-decoration-underline mx-5 my-2 fs-4" style={{color:"#e88c04"}}>Founder's Message</h2>
@@ -64,22 +65,7 @@ const AboutUs = () => {
           </div>
         </div>
  
-        {/* <div class="container ">
-  <div class="row align-items-center mx-5" style={{height:'160px'}}>
-    <div class="col  my-3 mx-5">
-      <h3 className="heading ">Our Mission</h3>
-      <p>We aim to add value to people’s lives everyday by adding peaceful elements to any architectural projects.</p>
-    </div>
-    <div class="col  mx-5">
-      <h3>Our Vision</h3>
-      <p>To provide best in class affordable customised flooring & Interior solutions with Marble & Granite fusion for modern nature friendly living</p>
-    </div>
-    <div class="col  mx-5">
-      <h3>Our Values</h3>
-      <p>Empowerment / Professional / Innovation / Quality / Trust / Growth.</p>
-    </div>
-  </div>
-</div> */}
+        
     
 
    <div className="cards d-flex justify-content-evenly mt-4">
@@ -89,22 +75,22 @@ const AboutUs = () => {
     <Card3/>
    </div>
    <div><hr /></div>
-   <div className="fs-3" style={{color:"#e88c04"}}><strong>Our Branches</strong></div>
+   {/* <div className="fs-3" style={{color:"#e88c04" ,fontFamily: "Roboto"}}><strong>Our Branches</strong></div>
    <div className="phoots d-flex justify-content-evenly">
    <div class="card mt-4" style={{width: "18rem"}}>
   <img src="https://img.freepik.com/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-interior-hightech-factory-modern-production_645730-185.jpg?w=1060&t=st=1681854058~exp=1681854658~hmac=b1ad62682438e048c1e3411be9e9dff0bec06fdaa777022ac2815f2559d8c078" class="card-img-top" alt="..."/>
-  <h5 className='my-2'style={{color:"#e88c04"}}>Lucknow</h5>
+  <h5 className='my-2'style={{color:"#e88c04" ,fontFamily: "Roboto"}}>Lucknow</h5>
   
 </div>
 <div class="card  mx-5 mt-4" style={{width: "18rem"}}>
   <img src="https://img.freepik.com/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-interior-hightech-factory-modern-production_645730-185.jpg?w=1060&t=st=1681854058~exp=1681854658~hmac=b1ad62682438e048c1e3411be9e9dff0bec06fdaa777022ac2815f2559d8c078" class="card-img-top" alt="..."/>
-  <h5 className='my-2'style={{color:"#e88c04"}}>Makrana</h5>
+  <h5 className='my-2'style={{color:"#e88c04" ,fontFamily: "Roboto"}}>Makrana</h5>
 </div>
 <div class="card mt-4" style={{width: "18rem"}}>
   <img src="https://img.freepik.com/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-interior-hightech-factory-modern-production_645730-185.jpg?w=1060&t=st=1681854058~exp=1681854658~hmac=b1ad62682438e048c1e3411be9e9dff0bec06fdaa777022ac2815f2559d8c078"class="card-img-top" alt="..."/>
-  <h5 className='my-2'style={{color:"#e88c04"}} >Jaipur</h5>
+  <h5 className='my-2'style={{color:"#e88c04" ,fontFamily: "Roboto"}} >Jaipur</h5>
 </div>
-   </div>
+   </div> */}
 
           </>
   )

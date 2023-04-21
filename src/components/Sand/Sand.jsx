@@ -14,7 +14,7 @@ function Sand() {
         backgroundImage: `url(${back})`
       }}>
         <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'white', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "5px", height: '200px' }}>
-          River Bed Side Red Coarse Sand
+          SAND
         </h1>
       </div>
       <div className='container'>
