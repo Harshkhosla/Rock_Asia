@@ -1,8 +1,6 @@
 import React from 'react'
 
-
-
-function GraniteCard({ name, img }) {
+function TempleCard({ name, img }) {
 
   return (<>
 
@@ -23,4 +21,4 @@ function GraniteCard({ name, img }) {
   )
 }
 
-export default GraniteCard
+export default TempleCard
