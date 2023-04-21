@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const pages = [ 'Home', 'Products','About',];
+const pages = [ 'Home','About',];
 const settings = ['Profile', 'Account', 'Contact Us', 'Logout'];
 
 const Header = () => {
@@ -40,11 +40,11 @@ const Header = () => {
   };
 
   const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+    // setAnchorElNav(null);
   };
 
   const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
+    // setAnchorElUser(null);
   };
 
   return (
@@ -72,7 +72,7 @@ const Header = () => {
               color:'#e88c44'
             }}
           >
-            Rock Asia 
+            ROCK ASIA 
           </Typography>
 
           <Box sx={{ color:'#e88c44' ,flexGrow: 1, display: { xs: 'flex', md: 'none' },  }}>
@@ -133,7 +133,7 @@ const Header = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            ROCK ASIA
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -150,12 +150,13 @@ const Header = () => {
             ))}
             <Button
         id="basic-button"
+        color="warning"
         aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-        Dashboard
+        Products
       </Button>
       <Menu
         id="basic-menu"
@@ -166,9 +167,12 @@ const Header = () => {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>Marble</MenuItem>
+        <MenuItem onClick={handleClose}>Granite</MenuItem>
+        <MenuItem onClick={handleClose}>Sandstones</MenuItem>
+        <MenuItem onClick={handleClose}>Sand</MenuItem>
+        <MenuItem onClick={handleClose}>Temples </MenuItem>
+        <MenuItem onClick={handleClose}>Articles </MenuItem>
       </Menu>
           </Box>
 
