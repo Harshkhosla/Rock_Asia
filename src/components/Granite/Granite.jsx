@@ -19,7 +19,7 @@ function Granite() {
         Brand: "Rock Asia Pvt Ltd"
     },
     {
-        Name: "Alaska Granite (Mona Lisa)",
+        Name: "Alaska Granite (MonaLisa)",
         img: "https://i.ibb.co/CPTfQDf/Granite2.jpg",
         Color: "Greyish White",
         Surface_Finish: "Unpolished",

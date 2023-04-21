@@ -8,7 +8,7 @@ function Footer() {
       <footer className="footer mt-4">
         <div className="container">
           <div className="row">
-            <div className="footer-col ">
+            <div className="footer-col">
               <h4>Rock Asia Private Limited</h4>
            
               <img
@@ -39,28 +39,28 @@ function Footer() {
                 <li style={{ color: "#bbbbbb" }}>• Jaipur </li>
               </ul>
             </div>
-            <div className="footer-col text-start ">
-              <h4 to="/product">
-                <h4 className="prod ml-3 ">Our Products</h4>
-              </h4>
+            <div className="footer-col">
+              
+                <h4 className="prod ml-3">Our Products</h4>
+             
               <ul>
-                <li >
-                  <Link to="/product/marbel">• Marbels</Link>
+                <li>
+                  <Link to="/Marble">• Marbels</Link>
                 </li>
                 <li>
-                  <Link to="/product/granite">• Granite</Link>
+                  <Link to="/Granite">• Granite</Link>
                 </li>
                 <li>
-                  <Link to="/product/sandstone">• Sandstones</Link>
+                  <Link to="/Sandstone">• Sandstones</Link>
                 </li>
                 <li>
-                  <Link to="/product/sand">• Sand</Link>
+                  <Link to="/Sand">• Sand</Link>
                 </li>
                 <li>
-                  <Link to="/product/sand">• Temples </Link>
+                  <Link to="/Temple">• Temples</Link>
                 </li>
                 <li>
-                  <Link to="/product/sand">• Articles</Link>
+                  <Link to="/Article">• Articles</Link>
                 </li>
               
               </ul>
