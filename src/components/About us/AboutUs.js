@@ -26,11 +26,11 @@ const AboutUs = () => {
         <div className="box " style={{margin:'0px'}} >
          
           <div className="box1"style={{width:'50%'}}>
-            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4" >Founder's Message</h2>
+            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4" style={{color:"#e88c04"}}>Founder's Message</h2>
             {/* <hr /> */}
             <div className="info1 mx-5 my-2 fs-5">
               <p>MR.ANIRUDH BANSAL</p>
-              <div className="info2 mx-7 lh-base" style={{color:"#e88c04"}} >
+              <div className="info2 mx-7 lh-base"  >
                 He Completed his Schooling from Mayo College, Ajmer. He did his
                 Graduation from Jain College, Bangalore & MBA from Narsee Munji
                 College, Mumbai. He is Full of vibrant energy. He is been
@@ -43,11 +43,11 @@ const AboutUs = () => {
           </div>
 <div class="vl" style={{border: '1px solid black',width:'1px', height: '430px'}}></div>
           <div style={{width:'50%'}}>
-            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4">Founder's Message</h2>
+            <h2 className=" info text-decoration-underline mx-5 my-2 fs-4" style={{color:"#e88c04"}}>Founder's Message</h2>
             {/* <hr /> */}
             <div className="info1 mx-5 my-2 fs-5">
               <p> MRS.MANISHA GUPTA BANSAL</p>
-              <div className="info2 mx-7 fs-5 lh-base" style={{color:"#e88c04"}}>
+              <div className="info2 mx-7 fs-5 lh-base" >
                 She completed her Schooling from Central Academy, Lucknow. She
                 is a B. Tech in Computer Science from Babu Banarasi Das
                 Engineering College, Lucknow. She did her masters in Supply

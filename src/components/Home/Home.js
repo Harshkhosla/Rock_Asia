@@ -44,7 +44,10 @@ const Products = () => {
 </div>
 
 <div className="container d-flex">
-<div class="p-2 w-100 " style={{color:"#e88c04"}}>Our business is dedicated to providing high-quality and affordable natural stones to customers worldwide. Our products include Red Coarse Sand, Marble, Granite, and other imported stones, all sourced from the finest quarries around the world. As mine owners, manufacturers, processors, traders, and suppliers, we take pride in every aspect of our business operations, ensuring that our customers receive the best possible service and products.
+  
+<div class="p-2 w-100 " >
+  <p className='heading fs-3' style={{color:"#e88c04"}}><strong>ROCK ASIA PRIVATE LIMITED</strong></p>
+  Our business is dedicated to providing high-quality and affordable natural stones to customers worldwide. Our products include Red Coarse Sand, Marble, Granite, and other imported stones, all sourced from the finest quarries around the world. As mine owners, manufacturers, processors, traders, and suppliers, we take pride in every aspect of our business operations, ensuring that our customers receive the best possible service and products.
 
 At the core of our business is our mission to add value to people's lives through the integration of peaceful elements into architectural projects. We understand that our natural stones play a vital role in the creation of beautiful and functional living spaces. From traditional to modern styles, we have a wide range of products to meet the needs of our clients.
 </div>
@@ -52,7 +55,7 @@ At the core of our business is our mission to add value to people's lives throug
 </div>
 <div className="container d-flex">
 <div class="p-2 flex-shrink-1"> <img src={Logo} class="d-block w-100 h-60" alt="..."/></div>
-<div class="p-2 w-100" style={{color:"#e88c04"}}>We are a values-driven organization, and our values are centered around empowerment, professionalism, innovation, quality, trust, and growth. Our team is committed to providing exceptional customer service, and we are always willing to go the extra mile to ensure that our customers are satisfied with our products and services.
+<div class="p-2 w-100" >We are a values-driven organization, and our values are centered around empowerment, professionalism, innovation, quality, trust, and growth. Our team is committed to providing exceptional customer service, and we are always willing to go the extra mile to ensure that our customers are satisfied with our products and services.
 
 We invite you to explore our website and learn more about our products and services. Whether you are a homeowner, architect, or contractor, we have the perfect natural stone solution for your needs. Thank you for considering our business, and we look forward to serving you.
 </div>
