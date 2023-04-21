@@ -40,21 +40,27 @@ function Footer() {
               </ul>
             </div>
             <div className="footer-col">
-              <h4 to="/product">
+              
                 <h4 className="prod ml-3">Our Products</h4>
-              </h4>
+             
               <ul>
                 <li>
-                  <Link to="/product/marbel">• Marbels</Link>
+                  <Link to="/Marble">• Marbels</Link>
                 </li>
                 <li>
-                  <Link to="/product/granite">• Granite</Link>
+                  <Link to="/Granite">• Granite</Link>
                 </li>
                 <li>
-                  <Link to="/product/sandstone">• Sandstones</Link>
+                  <Link to="/Sandstone">• Sandstones</Link>
                 </li>
                 <li>
-                  <Link to="/product/sand">• Sand</Link>
+                  <Link to="/Sand">• Sand</Link>
+                </li>
+                <li>
+                  <Link to="/Temple">• Temples</Link>
+                </li>
+                <li>
+                  <Link to="/Article">• Articles</Link>
                 </li>
               
               </ul>
