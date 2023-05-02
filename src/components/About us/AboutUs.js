@@ -42,7 +42,7 @@ const AboutUs = () => {
             <p>MR.ANIRUDH BANSAL</p>
             <div className="info2 mx-7 lh-base">
               He Completed his Schooling from Mayo College, Ajmer. He did his
-              Graduation from Jain College, Bangalore & MBA from Narsee Munji
+              Graduation from Jain College, Bangalore & MBA from Narsee Munjee
               College, Mumbai. He is Full of vibrant energy. He is been handling
               & taking care of his family business after education. He is known
               for his strong will & he is a thoughtful person who think of

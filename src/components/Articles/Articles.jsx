@@ -66,7 +66,7 @@ function Articles() {
                 backgroundImage: `url(${back})`
             }}>
                 <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'white', fontSize: "500%", fontFamily: "Roboto", letterSpacing: "10px", height: '200px' }}>
-                Articles
+                ARTICLES
                 </h1>
             </div>
 
