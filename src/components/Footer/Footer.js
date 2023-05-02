@@ -5,7 +5,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <footer className="footer mt-4">
+      <footer className="footer mt-4" >
         <div className="container">
           <div className="row">
             <div className="footer-col">
@@ -17,8 +17,8 @@ function Footer() {
                 style={{ height: "180px", width: "150px" }}
               ></img>
             </div>
-            <div className="footer-col">
-              <h4>Rock Asia Private Limited </h4>
+            <div className="footer-col text-start ">
+              <h4 className="mx-5">LINKS </h4>
               <ul>
                 <li>
                   <Link to={"/"} role="button">
@@ -30,37 +30,50 @@ function Footer() {
                     About us
                   </Link>
                 </li>
+                <li>
+                  <Link to={"/setup"} role="button">
+                    Our Setup
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/gallery"} role="button">
+                   Gallery
+                  </Link>
+                </li>
 
                 <li>
-                  <h6 style={{ color: "white" }}>Branch Officies: </h6>
+                  <h6 style={{ color: "white" ,textDecoration:'underline' }}>Branch Officies:- </h6>
                 </li>
                 <li style={{ color: "#bbbbbb" }}>• Lucknow </li>
-                <li style={{ color: "#bbbbbb" }}>• Makrana </li>
                 <li style={{ color: "#bbbbbb" }}>• Jaipur </li>
+                <li style={{ color: "#bbbbbb" }}>• Makrana </li>
               </ul>
             </div>
-            <div className="footer-col">
+            <div className="footer-col text-start">
               
-                <h4 className="prod ml-3">Our Products</h4>
+                <h4 className="prod ml-3 ">Our Products</h4>
              
               <ul>
+                <li>
+                  <Link to="/Sand">• River bed Sand</Link>
+                </li>
                 <li>
                   <Link to="/Marble">• Marbels</Link>
                 </li>
                 <li>
-                  <Link to="/Granite">• Granite</Link>
+                  <Link to="/Granite">• Granites</Link>
                 </li>
                 <li>
-                  <Link to="/Sandstone">• Sandstones</Link>
-                </li>
-                <li>
-                  <Link to="/Sand">• Sand</Link>
+                  <Link to="/Sandstone">• SandStones</Link>
                 </li>
                 <li>
                   <Link to="/Temple">• Temples</Link>
                 </li>
                 <li>
                   <Link to="/Article">• Articles</Link>
+                </li>
+                <li>
+                  <Link to="/others">• Others</Link>
                 </li>
               
               </ul>
@@ -72,8 +85,8 @@ function Footer() {
                   <h6 style={{ color: "white" }}>Our Main Branch: </h6>
                 </li>
                 <li>
-                  <Link href="#">
-                    C-4/404 Kamal Apartment-2, Bani Park, Jaipur -302016
+                  <Link href="#" style={{width:'300px'}}>
+                  C4/404 , kamal Apartment -2, Opposite Jaipur Metals, Bani Park , Jaipur ( Rajasthan) Pin - 302016
                   </Link>
                 </li>
                 <li>
