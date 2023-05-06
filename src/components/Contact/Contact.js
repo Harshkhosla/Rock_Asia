@@ -3,7 +3,7 @@ import contact from './contact1.jpg'
 import './contact.css'
 
 const Contact = () => {
-  <link rel="icon" href="https://sreejaa.com/assets/img/fav.png" type="image/png" sizes="16x16"></link>
+  
   return (
     <div>
       <div className="contacts " >
@@ -37,19 +37,19 @@ const Contact = () => {
 		
 			
 		</div>
-		<div class="col-md-4 mt-5" style={{paddingLeft: '80px'}}>
+		<div class="col-md-4 mt-5" style={{paddingLeft: '80px',paddingRight: '36px'}}>
 		
-			<div class="headline" style={{color:"#e88c04"}}><h2>Contacts</h2></div>
-			<ul class="list-unstyled who margin-bottom-30" >
-				<li><a href="#" style={{color:'black',textDecoration:'none'}}><i class="fa fa-home mx-2" aria-hidden="true"  ></i>C-4/404 Kamal Apartment-2, Bani Park, Jaipur -302016</a></li>
+			<div class="headline text-start" style={{color:"#e88c04"}}><h2>Contacts</h2></div>
+			<ul class="list-unstyled who margin-bottom-30 text-start " >
+				<li><a href="#" style={{color:'black',textDecoration:'none'}}><i class=" fa fa-envelope " aria-hidden="true"  ></i>C4/404 , kamal Apartment-2,Opposite Jaipur Metals,Bani Park , Jaipur ( Rajasthan) -302016</a></li>
 				<li><a href="" style={{color:'black', textDecoration:'none'}}><i class="fa fa-envelope"></i>rockasia2021@gmail.com</a></li>
 				<li><a href="#" style={{color:'black',textDecoration:'none'}}><i class="fa fa-phone"></i>+91 99827 55555</a></li>
 				<li><a href="#" style={{color:'black',textDecoration:'none'}}><i class="fa fa-whatsapp"></i>+ 91 95603 15758</a></li>
 			</ul>
 
 	
-			<div class="headline mt-5 fs-2" style={{color:"#e88c04"}}><h2>Business Hours</h2></div>
-			<ul class="list-unstyled margin-bottom-30">
+			<div class="headline mt-5 fs-2 text-start " style={{color:"#e88c04"}}><h2>Business Hours</h2></div>
+			<ul class="list-unstyled margin-bottom-30 text-start">
 				<li><strong>Monday-Friday:</strong> 10am to 7pm</li>
 				<li><strong>Saturday:</strong> 10am to 4pm</li>
 				<li><strong>Sunday:</strong> Closed</li>

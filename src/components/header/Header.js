@@ -11,12 +11,13 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+
 import Logo from "./logo.jpg";
 import { Link } from "react-router-dom";
 
-const pages = ["Home", "About"];
-const settings = ["Contact Us"];
+const pages = ["Home", "About","Our Setup","Gallery"];
+
+// const settings = ["Contact Us"];
 
 const Header = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -38,28 +39,32 @@ const Header = () => {
   };
 
   const handleCloseNavMenu = () => {
-    // setAnchorElNav(null);
+    setAnchorElNav(null);
   };
 
   const handleCloseUserMenu = () => {
-    // setAnchorElUser(null);
+    setAnchorElUser(null);
   };
 
   return (
     <div>
       <AppBar
         position="static mb-5"
+        
+        
         sx={{ color: "#e88c44", backgroundColor: "#ffffff" }}
       >
-        <Container maxWidth="xl">
+        <Container maxWidth="xl" 
+        >
           <Toolbar disableGutters>
             <img src={Logo} style={{ height: "55px" }} />
-            {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
+     
             <Typography
               variant="h5"
               noWrap
               component="a"
               href="/"
+              
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -115,7 +120,7 @@ const Header = () => {
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" sx={{ color: "#e88c44" }}>
                       <Link
-                        style={{ textDecoration: "none", color: "#e88c44" }}
+                        style={{ textDecoration: "underline", color: "#e88c44" }}
                         to={`/${page}`}
                       >
                         {page}
@@ -125,7 +130,7 @@ const Header = () => {
                 ))}
               </Menu>
             </Box>
-            
+     
             <Typography
               variant="h5"
               noWrap
@@ -144,13 +149,12 @@ const Header = () => {
             >
               ROCK ASIA
             </Typography>
-          
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex",justifyContent:"center" ,alignItems :"center"  } }}>
+            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex", justifyContent:"center" } }}>
               {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "#e88c44",display: "block" }}
+                  sx={{ my: 2, color: "#e88c44", display: "block" ,fontSize:'18px'}}
                 >
                   <Link
                     style={{ textDecoration: "none", color: "#e88c44" }}
@@ -161,6 +165,7 @@ const Header = () => {
                 </Button>
               ))}
               <Button
+              sx={{fontSize:'18px'}}
                 id="basic-button"
                 color="warning"
                 aria-controls={open ? "basic-menu" : undefined}
@@ -179,65 +184,40 @@ const Header = () => {
                   "aria-labelledby": "basic-button",
                 }}
               >
+                <Link to="/Sand" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
+                  <MenuItem>River Bed Sand</MenuItem>
+                </Link>
                 <Link to="/marble" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Marble</MenuItem>
+                  <MenuItem>Marbles</MenuItem>
                 </Link>
                 <Link to="/granite" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Granite</MenuItem>
+                  <MenuItem>Granites</MenuItem>
                 </Link>
-                <Link to="/Sandtone" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
+                <Link to="/SAndstone" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
                   <MenuItem>Sandstones</MenuItem>
-                </Link>
-                <Link to="/Sand" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Sand</MenuItem>
                 </Link>
                 <Link to="/Temple" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
                   <MenuItem>Temples</MenuItem>
                 </Link>
-                <Link to="/Articles" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
+                <Link to="/Article" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
                   <MenuItem>Articles</MenuItem>
                 </Link>
+                <Link to="/others" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
+                  <MenuItem>Others</MenuItem>
+                </Link>
               </Menu>
+             
             </Box>
 
             <Box sx={{ flexGrow: 0 }}>
-              
-              <Link
+            <Link
                         style={{ textDecoration: "none", color: "#e88c44" }}
                         to={"/contact us"}
                       ><Button variant="contained" color="warning">
  Contact Us
 </Button>
                       </Link>
-              {/* <Menu
-                sx={{ mt: "45px" }}
-                id="menu-appbar"
-                anchorEl={anchorElUser}
-                anchorOrigin={{
-                  vertical: "top",
-                  horizontal: "right",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "right",
-                }}
-                open={Boolean(anchorElUser)}
-                onClose={handleCloseUserMenu}
-              >
-                {settings.map((setting) => (
-                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">
-                      <Link
-                        style={{ textDecoration: "none", color: "#e88c44" }}
-                        to={`/${setting}`}
-                      >
-                        {setting}
-                      </Link>
-                    </Typography>
-                  </MenuItem>
-                ))}
-              </Menu> */}
+           
             </Box>
           </Toolbar>
         </Container>

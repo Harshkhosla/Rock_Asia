@@ -25,10 +25,10 @@ const Products = () => {
   </div>
   <div class="carousel-inner" >
     <div class="carousel-item active">
-      <img src={sample1} class="d-block w-100" alt="..."/>
+      <img src={sample2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={sample2} class="d-block w-100" alt="..."/>
+      <img src={sample1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src={sample3} class="d-block w-100" alt="..."/>
@@ -52,13 +52,13 @@ const Products = () => {
 <div className="container d-flex">
 <div class="p-2 flex-shrink-1" style={{width:'250px',height:'200px'}}> <img src={bath} class="d-block w-100" alt="..."/></div>
 
-<div class="p-2 w-100 text-start"> <div style={{color:"#e88c04", fontFamily: "Roboto",fontSize:'30px'}}><strong>ROCK AISA PRIVATE LIMITED</strong></div>Our vision is to provide best-in-class, affordable, and customized flooring and interior solutions with a fusion of Marble and Granite. We believe in nature-friendly living and strive to provide products that promote sustainability and environmental responsibility.
+<div class="p-2 w-100 text-start"> <div style={{color:"#e88c04", fontFamily: "Roboto",fontSize:'30px'}}><strong>ROCK ASIA PRIVATE LIMITED</strong></div>Our vision is to provide best-in-class, affordable, and customized flooring and interior solutions with a fusion of Marble and Granite. We believe in nature-friendly living and strive to provide products that promote sustainability and environmental responsibility.
 
 We are a values-driven organization, and our values are centered around empowerment, professionalism, innovation, quality, trust, and growth. Our team is committed to providing exceptional customer service, and we are always willing to go the extra mile to ensure that our customers are satisfied with our products and services.</div>
  
 </div>
 <div className="container d-flex">
-<div class="p-2 w-100 text-start-end">Our business is dedicated to providing high-quality and affordable natural stones to customers worldwide. Our products include Red Coarse Sand, Marble, Granite, and other imported stones, all sourced from the finest quarries around the world. As mine owners, manufacturers, processors, traders, and suppliers, we take pride in every aspect of our business operations, ensuring that our customers receive the best possible service and products.
+<div class="p-2 w-100 text-start">Our business is dedicated to providing high-quality and affordable natural stones to customers worldwide. Our products include Red Coarse Sand, Marble, Granite, and other imported stones, all sourced from the finest quarries around the world. As mine owners, manufacturers, processors, traders, and suppliers, we take pride in every aspect of our business operations, ensuring that our customers receive the best possible service and products.
 
 We invite you to explore our website and learn more about our products and services. Whether you are a homeowner, architect, or contractor, we have the perfect natural stone solution for your needs. Thank you for considering our business, and we look forward to serving you.
 </div>
@@ -83,7 +83,7 @@ We invite you to explore our website and learn more about our products and servi
 </div>
 <div class="card mt-4" style={{width: "18rem"}}>
   <img src={Sand} class="card-img-top" alt="..."/>
-  <h5 className='my-2' >SAND</h5>
+  <h5 className='my-2' > RIVER BED SAND</h5>
 </div>
 </div>
     </div>
