@@ -12,10 +12,12 @@ import Sand from './components/Sand/Sand'
 import Sandstone from './components/Sandstone/Sandstone'
 import Temple from './components/Temple/Temple'
 import Articles from './components/Articles/Articles'
+//import Uphead from './components/uphead/uphead'
 
 function App() {
   return (
     <div className="App">
+     {/* <Uphead/> */}
      <Header/>
      <Routes>
     <Route path ="/" element={<Home/>}/>

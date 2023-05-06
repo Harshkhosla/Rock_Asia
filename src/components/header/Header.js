@@ -125,7 +125,7 @@ const Header = () => {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            
             <Typography
               variant="h5"
               noWrap
@@ -144,12 +144,13 @@ const Header = () => {
             >
               ROCK ASIA
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          
+            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex",justifyContent:"center" ,alignItems :"center"  } }}>
               {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "#e88c44", display: "block" }}
+                  sx={{ my: 2, color: "#e88c44",display: "block" }}
                 >
                   <Link
                     style={{ textDecoration: "none", color: "#e88c44" }}
@@ -200,12 +201,15 @@ const Header = () => {
             </Box>
 
             <Box sx={{ flexGrow: 0 }}>
-              <Tooltip title="Open settings">
-                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-                </IconButton>
-              </Tooltip>
-              <Menu
+              
+              <Link
+                        style={{ textDecoration: "none", color: "#e88c44" }}
+                        to={"/contact us"}
+                      ><Button variant="contained" color="warning">
+ Contact Us
+</Button>
+                      </Link>
+              {/* <Menu
                 sx={{ mt: "45px" }}
                 id="menu-appbar"
                 anchorEl={anchorElUser}
@@ -233,7 +237,7 @@ const Header = () => {
                     </Typography>
                   </MenuItem>
                 ))}
-              </Menu>
+              </Menu> */}
             </Box>
           </Toolbar>
         </Container>
