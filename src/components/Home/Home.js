@@ -4,7 +4,6 @@ import sample2 from './slider2.jpg'
 import sample3 from './slider3.jpg'
 import sample4 from './slider4.jpg'
 import Logo from './logo.jpg'
-// import ware from './warehouse1.jpg'
 import kit from './1 home page.jpg'
 import bath from './2 home page.jpg'
 
@@ -86,7 +85,9 @@ We invite you to explore our website and learn more about our products and servi
   <h5 className='my-2' > RIVER BED SAND</h5>
 </div>
 </div>
+
     </div>
+
   )
 }
 

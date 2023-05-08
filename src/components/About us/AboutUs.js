@@ -40,7 +40,7 @@ const AboutUs = () => {
           {/* <hr /> */}
           <div className="info1 mx-5 my-2 fs-5">
             <p>MR.ANIRUDH BANSAL</p>
-            <div className="info2 mx-7 lh-base">
+            <div className="info2 mx-7 lh-base text-start">
               He Completed his Schooling from Mayo College, Ajmer. He did his
               Graduation from Jain College, Bangalore & MBA from Narsee Munjee
               College, Mumbai. He is Full of vibrant energy. He is been handling
@@ -65,7 +65,7 @@ const AboutUs = () => {
           {/* <hr /> */}
           <div className="info1 mx-5 my-2 fs-5">
             <p> MRS.MANISHA GUPTA BANSAL</p>
-            <div className="info2 mx-7 fs-5 lh-base">
+            <div className="info2 mx-7 fs-5 lh-base text-start">
               She completed her Schooling from Central Academy, Lucknow. She is
               a B. Tech in Computer Science from Babu Banarasi Das Engineering
               College, Lucknow. She did her masters in Supply Chain & Operations
