@@ -42,7 +42,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <h6 style={{ color: "white" ,textDecoration:'underline' }}>Branch Officies:- </h6>
+                  <h6 style={{ color: "white" ,textDecoration:'underline' }}>Branch Offices:- </h6>
                 </li>
                 <li style={{ color: "#bbbbbb" }}>• Lucknow </li>
                 <li style={{ color: "#bbbbbb" }}>• Jaipur </li>
@@ -58,16 +58,16 @@ function Footer() {
                   <Link to="/Sand">• River bed Sand</Link>
                 </li>
                 <li>
-                  <Link to="/Marble">• Marbels</Link>
+                  <Link to="/Marble">• Marble</Link>
                 </li>
                 <li>
-                  <Link to="/Granite">• Granites</Link>
+                  <Link to="/Granite">• Granite</Link>
                 </li>
                 <li>
-                  <Link to="/Sandstone">• SandStones</Link>
+                  <Link to="/Sandstone">• Sandstone</Link>
                 </li>
                 <li>
-                  <Link to="/Temple">• Temples</Link>
+                  <Link to="/Temple">• Temple</Link>
                 </li>
                 <li>
                   <Link to="/Article">• Articles</Link>
