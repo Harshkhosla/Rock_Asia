@@ -251,6 +251,7 @@ function Granite() {
         Shape: "Rectangular",
         Origin: "Made In India",
         Brand: "Rock Asia Pvt Ltd"
+        
     },
     ]
     return (
@@ -260,8 +261,8 @@ function Granite() {
                 height: "200px",
                 backgroundImage: `url(${back})`
             }}>
-                <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'white', fontSize: "500%", fontFamily: "Roboto", letterSpacing: "10px", height: '200px' }}>
-                    Granite
+                <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'white', fontSize: "350%", fontFamily: "Roboto", letterSpacing: "8px", height: '200px' }}>
+                    GNANITE
                 </h1>
             </div>
 

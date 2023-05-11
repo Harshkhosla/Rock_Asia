@@ -1,0 +1,32 @@
+.navbar {
+    box-shadow: 0 4px 6px 0 #e88c44;
+  }
+  .navbar-nav .nav-link {
+    color: #000000;
+    &:hover {
+        font-weight: bold;
+      color: #e88c44;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .btn {
+      background-color: #000000;
+      color: #ffffff;
+      border-radius: 0;
+      border-width: 2px;
+    }
+    .btn:hover {
+      background-color: #e88c44;
+      color: #000000;
+      border: 2px solid #000000;
+    }
+    .btn:focus {
+        box-shadow:none;
+      }
+  }
+  @media screen and (max-width: 768px) {
+    .btn {
+      padding: 0;
+      color: #000000;
+    }
+  }

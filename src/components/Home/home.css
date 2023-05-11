@@ -1,0 +1,64 @@
+/* .p-2.flex-shrink-1{
+  width:250px;
+  height:200px;
+} */
+
+@media only screen and (max-width:320px) {
+
+ .text-start1{
+  margin-top:15px;
+  font-size:2em;
+ }
+ .text-start{
+  font-size: 1.2em;
+}
+.para1.text-start{
+  font-size: 1.2em;
+
+ }
+ 
+
+} 
+
+
+
+  
+  /* Default font size for all devices */
+  
+  /* Adjust font size for smaller devices */
+  @media (min-width:321px) and (max-width: 768px) {
+
+    
+  
+    .text-start1{
+      margin-top:1px;
+      font-size:2em;
+    }
+    .text-start{
+      margin-left: 3px;
+      font-size: 1.2em;
+     }
+    .para1.text-start{
+      margin-left: 20px;
+    }
+    
+  }
+ 
+  
+  /* Adjust font size for medium devices */
+ 
+  
+  
+  /* Adjust font size for larger devices */
+  @media (min-width:769px) and (max-width:2560px) {
+
+    .text-start{
+      margin-left: 3px;
+      font-size: 1.8em;
+     }
+    .para1.text-start{
+      margin-left: 20px;
+      font-size: 1.8em;
+    }
+    
+  }
