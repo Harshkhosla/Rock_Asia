@@ -15,7 +15,7 @@ const Header = () => {
     <nav class="navbar navbar-expand-lg mb-4 ">
   <div class="container-fluid">
     <img src={Logo} class="mx-3"style={{width:'45px', height:'50px'}}alt="" />
-    <a class="navbar-brand fs-3" href="/" style={{color:'#e88c44', fontWeight:'bold'}}>ROCK ASIA</a>
+    <a class="navbar-brand fs-5" href="/" style={{color:'#e88c44', fontWeight:'bold'}}>ROCK ASIA</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,7 +29,7 @@ const Header = () => {
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Products
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/Sand">River Bed Sand</a></li>
@@ -52,7 +52,7 @@ const Header = () => {
        
        
       </ul>
-      <a href="/contact us" class="btn fw-bold">Get in Touch</a>
+      <a href="/contact us" class="btn fw-bold" style={{background:"#e88c44"}}>Contact Us</a>
     </div>
   </div>
 </nav>
