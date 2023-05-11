@@ -35,7 +35,7 @@ const Header = () => {
             <li><a class="dropdown-item" href="/Sand">River Bed Sand</a></li>
             <li><a class="dropdown-item" href="/Marble">Marble</a></li>
             <li><a class="dropdown-item" href="/Granite">Granite</a></li>
-            <li><a class="dropdown-item" href="Sandstone">Sanstone</a></li>
+            <li><a class="dropdown-item" href="Sandstone">Sandstone</a></li>
             <li><a class="dropdown-item" href="Temple">Temple</a></li>
             <li><a class="dropdown-item" href="Article">Articles</a></li>
             <li><a class="dropdown-item" href="/others">Others</a></li>
