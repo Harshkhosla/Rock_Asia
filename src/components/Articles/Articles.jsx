@@ -66,19 +66,19 @@ function Articles() {
                 backgroundImage: `url(${back})`
             }}>
                 <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'white', fontSize: "340%", fontFamily: "Roboto", letterSpacing: "8px", height: '200px' }}>
-                ARTICLES
+                    ARTICLES
                 </h1>
             </div>
 
-             <div className=" mx-0" style={{
-        width: "100%",
-        height: "100px",
-        
-      }}>
-        <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
-          Tables
-        </h1>
-      </div>
+            <div className=" mx-0" style={{
+                width: "100%",
+                height: "100px",
+
+            }}>
+                <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
+                    Tables
+                </h1>
+            </div>
 
             <div className='container'>
 
@@ -92,15 +92,15 @@ function Articles() {
                     }
                 </div>
             </div>
-             <div className=" mx-0" style={{
-        width: "100%",
-        height: "100px",
-        
-      }}>
-        <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
-          Lamps
-        </h1>
-      </div>
+            <div className=" mx-0" style={{
+                width: "100%",
+                height: "100px",
+
+            }}>
+                <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
+                    Lamps
+                </h1>
+            </div>
 
             <div className='container'>
 
@@ -114,15 +114,15 @@ function Articles() {
                     }
                 </div>
             </div>
-             <div className=" mx-0" style={{
-        width: "100%",
-        height: "100px",
-        
-      }}>
-        <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
-          Planters
-        </h1>
-      </div>
+            <div className=" mx-0" style={{
+                width: "100%",
+                height: "100px",
+
+            }}>
+                <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
+                    Planters
+                </h1>
+            </div>
 
             <div className='container'>
 
@@ -136,15 +136,15 @@ function Articles() {
                     }
                 </div>
             </div>
-             <div className=" mx-0" style={{
-        width: "100%",
-        height: "100px",
-        
-      }}>
-        <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
-          Washbasins
-        </h1>
-      </div>
+            <div className=" mx-0" style={{
+                width: "100%",
+                height: "100px",
+
+            }}>
+                <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
+                    Washbasins
+                </h1>
+            </div>
 
             <div className='container'>
 

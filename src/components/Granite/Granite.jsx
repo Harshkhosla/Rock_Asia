@@ -262,7 +262,7 @@ function Granite() {
                 backgroundImage: `url(${back})`
             }}>
                 <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'white', fontSize: "350%", fontFamily: "Roboto", letterSpacing: "8px", height: '200px' }}>
-                    GNANITE
+                    GRANITE
                 </h1>
             </div>
 

@@ -12,6 +12,7 @@ import Sand from './components/Sand/Sand'
 import Sandstone from './components/Sandstone/Sandstone'
 import Temple from './components/Temple/Temple'
 import Articles from './components/Articles/Articles'
+import Making from './components/MakingOfTemples/Making'
 //import Uphead from './components/uphead/uphead'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <Route path ="/Sandstone" element={<Sandstone/>}/>
     <Route path ="/Sand" element={<Sand/>}/>
     <Route path ="/Temple" element={<Temple/>}/>
+    <Route path ="/MakingOfTemples" element={<Making/>}/>
     <Route path ="/Article" element={<Articles/>}/>
      
      </Routes>

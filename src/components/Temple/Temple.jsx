@@ -1,7 +1,7 @@
 import React from 'react'
 import back from "./Templeback.jpg"
 import TempleCard from './TempleCard'
-
+import {Link } from 'react-router-dom'
 function Temples() {
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></link>
 
@@ -32,6 +32,7 @@ function Temples() {
         Brand: "Rock Asia Pvt Ltd"
     }
     ]
+
     return (
         <>
             <div className=" mx-0" style={{
@@ -56,6 +57,25 @@ function Temples() {
                     }
                 </div>
             </div>
+
+            {/* Making of temples */}
+<hr />
+            <div className="col-md-3">
+
+      <div class="card mx-2 my-2">
+        
+        <img src='https://i.ibb.co/HBbRgF0/Whats-App-Image-2023-05-17-at-18-10-52-1.jpg' class="card-img-top" alt="" />
+        <div class="card-body text-center">
+
+
+          <h5 class="card-title text-uppercase " style={{ fontSize: "16px",textDecoration:"none" }} ><a  className='textdecoration'style={{ textDecoration: 'none'}} href="/Marble">Making of Temples</a></h5>
+
+        </div>
+
+      </div>
+    </div>
+
+           
         </>
     )
 }
