@@ -17,13 +17,13 @@ const bull = (
   
   const card = (
     <React.Fragment>
-      <CardContent  style={{margin:'20px'}}>
+      <CardContent  style={{margin:'20px 0px'}}>
         
         <Typography variant="h5" component="div" className="fs-4">
         Our Values
         </Typography>
         
-        <Typography variant="body2 fs-6">
+        <Typography variant="body2 ">
         Empowerment / Professional / Innovation / Quality / Trust / Growth.
           <br />
      
@@ -34,7 +34,7 @@ const bull = (
   );
   export default function OutlinedCard() {
   return (
-    <Box sx={{ minWidth: 275 }}>
+    <Box sx={{ minWidth: 200 }}>
       <Card variant="outlined">{card}</Card>
     </Box>
   );

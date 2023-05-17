@@ -1,228 +1,63 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
-import MenuItem from "@mui/material/MenuItem";
+import './header.css';
 
 import Logo from "./logo.jpg";
 import { Link } from "react-router-dom";
 
-const pages = ["Home", "About","Our Setup","Gallery"];
-
-// const settings = ["Contact Us"];
 
 const Header = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  
 
   return (
+    <>
     <div>
-      <AppBar
-        position="static mb-5"
-        
-        
-        sx={{ color: "#e88c44", backgroundColor: "#ffffff" }}
-      >
-        <Container maxWidth="xl" 
-        >
-          <Toolbar disableGutters>
-            <img src={Logo} style={{ height: "55px" }} />
-     
-            <Typography
-              variant="h5"
-              noWrap
-              component="a"
-              href="/"
-              
-              sx={{
-                mr: 2,
-                display: { xs: "none", md: "flex" },
-                fontFamily: "monospace",
+    <nav class="navbar navbar-expand-lg mb-4 ">
+  <div class="container-fluid">
+    <img src={Logo} class="mx-3"style={{width:'45px', height:'50px'}}alt="" />
+    <a class="navbar-brand fs-5" href="/" style={{color:'#e88c44', fontWeight:'bold'}}>ROCK ASIA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active fs-5" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fs-5" aria-current="page" href="/about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/Sand">River Bed Sand</a></li>
+            <li><a class="dropdown-item" href="/Marble">Marble</a></li>
+            <li><a class="dropdown-item" href="/Granite">Granite</a></li>
+            <li><a class="dropdown-item" href="Sandstone">Sandstone</a></li>
+            <li><a class="dropdown-item" href="Temple">Temple</a></li>
+            <li><a class="dropdown-item" href="Article">Articles</a></li>
+            <li><a class="dropdown-item" href="/others">Others</a></li>
+          </ul>
+        </li>
 
-                fontWeight: 1000,
-                letterSpacing: ".3rem",
 
-                color: "inherit",
-                textDecoration: "none",
-                color: "#e88c44",
-              }}
-            >
-              ROCK ASIA
-            </Typography>
-
-            <Box
-              sx={{
-                color: "#e88c44",
-                flexGrow: 1,
-                display: { xs: "flex", md: "none" },
-              }}
-            >
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "left",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "left",
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{
-                  display: { xs: "block", md: "none" },
-                }}
-              >
-                {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" sx={{ color: "#e88c44" }}>
-                      <Link
-                        style={{ textDecoration: "underline", color: "#e88c44" }}
-                        to={`/${page}`}
-                      >
-                        {page}
-                      </Link>
-                    </Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
-            </Box>
-     
-            <Typography
-              variant="h5"
-              noWrap
-              component="a"
-              href=""
-              sx={{
-                mr: 2,
-                display: { xs: "flex", md: "none" },
-                flexGrow: 1,
-                fontFamily: "monospace",
-                fontWeight: 700,
-                letterSpacing: ".3rem",
-                color: "inherit",
-                textDecoration: "none",
-              }}
-            >
-              ROCK ASIA
-            </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex", justifyContent:"center" } }}>
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "#e88c44", display: "block" ,fontSize:'18px'}}
-                >
-                  <Link
-                    style={{ textDecoration: "none", color: "#e88c44" }}
-                    to={`/${page}`}
-                  >
-                    {page}
-                  </Link>
-                </Button>
-              ))}
-              <Button
-              sx={{fontSize:'18px'}}
-                id="basic-button"
-                color="warning"
-                aria-controls={open ? "basic-menu" : undefined}
-                aria-haspopup="true"
-                aria-expanded={open ? "true" : undefined}
-                onClick={handleClick}
-              >
-                Products
-              </Button>
-              <Menu
-                id="basic-menu"
-                anchorEl={anchorEl}
-                open={open}
-                onClose={handleClose}
-                MenuListProps={{
-                  "aria-labelledby": "basic-button",
-                }}
-              >
-                <Link to="/Sand" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>River Bed Sand</MenuItem>
-                </Link>
-                <Link to="/marble" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Marbles</MenuItem>
-                </Link>
-                <Link to="/granite" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Granites</MenuItem>
-                </Link>
-                <Link to="/SAndstone" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Sandstones</MenuItem>
-                </Link>
-                <Link to="/Temple" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Temples</MenuItem>
-                </Link>
-                <Link to="/Article" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Articles</MenuItem>
-                </Link>
-                <Link to="/others" onClick={handleClose} style={{textDecoration:'none',color:'black'}}>
-                  <MenuItem>Others</MenuItem>
-                </Link>
-              </Menu>
-             
-            </Box>
-
-            <Box sx={{ flexGrow: 0 }}>
-            <Link
-                        style={{ textDecoration: "none", color: "#e88c44" }}
-                        to={"/contact us"}
-                      ><Button variant="contained" color="warning">
- Contact Us
-</Button>
-                      </Link>
-           
-            </Box>
-          </Toolbar>
-        </Container>
-      </AppBar>
+        <li class="nav-item">
+          <a class="nav-link active fs-5" aria-current="page" href="/setup">Our Setup</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fs-5" aria-current="page" href="/gallery">Gallery</a>
+        </li>
+       
+       
+      </ul>
+      <a href="/contact us" class="btn fw-bold" style={{background:"#e88c44"}}>Contact Us</a>
     </div>
+  </div>
+</nav>
+    </div>
+    </>
   );
 };
 

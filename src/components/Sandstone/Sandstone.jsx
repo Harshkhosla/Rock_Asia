@@ -39,7 +39,7 @@ let sandstone=[
                 height: "200px",
                 backgroundImage: `url(${back})`
             }}>
-                <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'black', fontSize: "500%", fontFamily: "Roboto", letterSpacing: "10px", height: '200px' }}>
+                <h1 className="sample d-flex align-items-center justify-content-center " style={{ color: 'black', fontSize: "250%", fontFamily: "Roboto", letterSpacing: "8px", height: '200px' }}>
                     SANDSTONE
                 </h1>
             </div>
