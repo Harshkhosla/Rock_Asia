@@ -68,7 +68,7 @@ function Temples() {
         <div class="card-body text-center">
 
 
-          <h5 class="card-title text-uppercase " style={{ fontSize: "16px",textDecoration:"none" }} ><a  className='textdecoration'style={{ textDecoration: 'none'}} href="/Marble">Making of Temples</a></h5>
+          <h5 class="card-title text-uppercase " style={{ fontSize: "16px",textDecoration:"none" }} ><a  className='textdecoration'style={{ textDecoration: 'none'}} href="/MakingOfTemples">Making of Temples</a></h5>
 
         </div>
 
