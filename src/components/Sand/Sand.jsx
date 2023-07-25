@@ -18,12 +18,21 @@ function Sand() {
         </h1>
       </div>
       <div className='container'>
-        {/* <div className=''>
-          <img src={sand} alt="" />
-        </div> */}
+       
         <div class=" text-center">
-          <h5 class=" text-uppercase " style={{ fontSize: "16px" }} >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos, recusandae iste esse nulla accusamus exercitationem. Recusandae, odit sit deleniti vel incidunt ut non repellat temporibus? Nobis facere nemo sit?</h5>
+          <h4 class=" text-uppercase " style={{textAlign:"justify" }} >
+            <>
+              <li>River Sand-Unwashed</li>
+              <li>River Sand-Washed</li>
+              <li>Builder Sand</li>
+              <li>Plaster Sand</li>
+              <li>Filler Sand</li>
+              <li>Super Sand</li>
+              <li>1,2mm Sand</li>
+            </>
+            
+
+            </h4>
         </div>
 
       </div>
