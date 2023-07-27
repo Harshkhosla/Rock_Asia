@@ -115,23 +115,7 @@ function Marble() {
         height: "100px",
         
       }}>
-        <h1 className="sample d-flex align-items-center justify-content-center" style={{ color: 'rgb(176 65 22)', fontSize: "300%", fontFamily: "Roboto", letterSpacing: "7px", height: '100px' }}>
-          Imported
-        </h1>
-      </div>
-
-      <div className='container'>
-
-        <div className='row my-3'>
-
-          {marble.map((marble) => <MarbleCard
-            name={marble.Name}
-            img={marble.img}
-          ></MarbleCard>
-          )
-          }
         </div>
-      </div>
     </>
   )
 }

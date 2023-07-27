@@ -1,5 +1,5 @@
 import React from 'react'
-// import contact from './Graniteback.jpg'
+
 import './contact.css'
 
 const Contact = () => {
@@ -41,10 +41,10 @@ const Contact = () => {
 		
 			<div class="headline text-start" style={{color:"#e88c04"}}><h2>Contacts</h2></div>
 			<ul class="list-unstyled who margin-bottom-30 text-start " style={{marginRight: '9px'}}>
-				<li><a href="#" style={{color:'black',textDecoration:'none',marginRight:'6px'}}><i class=" fa fa-home  " aria-hidden="true"  ></i>C4/404 , kamal Apartment-2,Opposite Jaipur Metals,Bani Park , Jaipur ( Rajasthan) -302016</a></li>
-				<li><a href="" style={{color:'black', textDecoration:'none'}}><i class="fa fa-envelope "></i>rockasia2021@gmail.com</a></li>
-				<li><a href="#" style={{color:'black',textDecoration:'none'}}><i class="fa fa-phone"></i>+91 99827 55555</a></li>
-				<li><a href="#" style={{color:'black',textDecoration:'none'}}><i class="fa fa-phone"></i>+ 91 95603 15758</a></li>
+				<li><a href=" " style={{color:'black',textDecoration:'none',marginRight:'6px'}}><i class=" fa fa-home  " aria-hidden="true"  ></i>C4/404 , kamal Apartment-2,Opposite Jaipur Metals,Bani Park , Jaipur ( Rajasthan) -302016</a></li>
+				<li><a href=" " style={{color:'black', textDecoration:'none'}}><i class="fa fa-envelope "></i>rockasia2021@gmail.com</a></li>
+				<li><a href=" " style={{color:'black',textDecoration:'none'}}><i class="fa fa-phone"></i>+91 99827 55555</a></li>
+				<li><a href=" " style={{color:'black',textDecoration:'none'}}><i class="fa fa-phone"></i>+ 91 95603 15758</a></li>
 			</ul>
 
 	

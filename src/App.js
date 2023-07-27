@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/header/Header';
 import Home from './components/Home/Home'
@@ -13,12 +13,12 @@ import Sandstone from './components/Sandstone/Sandstone'
 import Temple from './components/Temple/Temple'
 import Articles from './components/Articles/Articles'
 import Making from './components/MakingOfTemples/Making'
-//import Uphead from './components/uphead/uphead'
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   return (
     <div className="App">
-     {/* <Uphead/> */}
+    
      <Header/>
      <Routes>
     <Route path ="/" element={<Home/>}/>
@@ -32,6 +32,7 @@ function App() {
     <Route path ="/Temple" element={<Temple/>}/>
     <Route path ="/MakingOfTemples" element={<Making/>}/>
     <Route path ="/Article" element={<Articles/>}/>
+    <Route path ="/gallery" element={<Gallery/>}/>
      
      </Routes>
       <Footer/>

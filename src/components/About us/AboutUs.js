@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import logo from "./logo.jpg";
 import Card1 from "../card/card1";
 import Card2 from "../card/card2";
 import Card3 from "../card/card3";

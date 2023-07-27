@@ -3,7 +3,7 @@ import sample1 from "./slider1.jpg";
 import sample2 from "./slider2.jpg";
 import sample3 from "./slider3.jpg";
 import sample4 from "./slider4.jpg";
-import Logo from "./logo.jpg";
+
 import kit from "./1 home page.jpg";
 import bath from "./2 home page.jpg";
 
@@ -146,19 +146,27 @@ const Products = () => {
         </div>
         <div className="Container row d-flex justify-content-evenly mt-4">
           <div className="card col-md-3 mt-4 " style={{ width: "18rem" }}>
+            <a href="/Marble">
             <img src={marbel} className="card-img-top" alt="..." />
+            </a>
             <h5 className="my-2">MARBLE</h5>
           </div>
           <div className="card col-md-3 mt-4" style={{ width: "18rem" }}>
+          <a href="/Granite">
             <img src={granite} className="card-img-top" alt="..." />
+            </a>
             <h5 className="my-2">GRANITE</h5>
           </div>
           <div className="card  col-md-3 mt-4" style={{ width: "18rem" }}>
+          <a href="/Sandstone">
             <img src={Sandstone} className="card-img-top" alt="..." />
+            </a>
             <h5 className="my-2">SANDSTONE</h5>
           </div>
           <div className="card col-md-3 mt-4" style={{ width: "18rem" }}>
+          <a href="/Sand">
             <img src={Sand} className="card-img-top" alt="..." />
+            </a>
             <h5 className="my-2"> RIVER BED SAND</h5>
           </div>
         </div>

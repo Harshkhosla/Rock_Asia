@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-function GraniteCard({img }) {
+function GraniteCard({ img }) {
 
   return (<>
 
@@ -11,7 +11,9 @@ function GraniteCard({img }) {
 
       <div class="card mx-2 my-2">
         <img src={img} class="card-img-top" alt="" />
-        
+        {/* <div class="card-body text-center">
+          <h5 class="card-title text-uppercase " style={{ fontSize: "16px" }} >{name}</h5>
+        </div> */}
 
       </div>
     </div>

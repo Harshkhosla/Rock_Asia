@@ -2,7 +2,7 @@ import * as React from "react";
 import './header.css';
 
 import Logo from "./logo.jpg";
-import { Link } from "react-router-dom";
+
 
 
 const Header = () => {
@@ -28,7 +28,7 @@ const Header = () => {
           <a class="nav-link active fs-5" aria-current="page" href="/about">About</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle fs-5" href=" " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Products
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
